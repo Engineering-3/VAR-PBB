@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11478,7 +11478,7 @@ Provides:
 <text x="327.66" y="27.94" size="1.778" layer="98">Designed for Tim Jump of Engineering^3
 by Brian Schmalz of Schmalz Haus LLC</text>
 <text x="327.66" y="25.4" size="1.778" layer="98">Copyright 2020 Engineering^3 LLC</text>
-<text x="12.7" y="264.16" size="5.08" layer="98">VAR_PBB v01 Variable Power Board</text>
+<text x="12.7" y="264.16" size="5.08" layer="98">VAR_PBB v02 Variable Power Board</text>
 <text x="45.72" y="238.76" size="1.778" layer="98">Power Switch</text>
 <text x="196.596" y="232.918" size="1.778" layer="98">Power LED will turn off if any 
 of the following is true:
@@ -11498,6 +11498,9 @@ of the following is true:
 <text x="182.626" y="200.66" size="1.778" layer="98">1%</text>
 <text x="199.644" y="207.772" size="1.778" layer="98">&gt;30V</text>
 <text x="72.39" y="205.232" size="1.778" layer="98">&gt;30V</text>
+<text x="12.7" y="160.02" size="1.778" layer="98">Release Notes:
+01/30/2020 v1.0 - First version
+10/31/2020 v2.0 - Fixed top silk screen misspelling of Engineering</text>
 </plain>
 <instances>
 <instance part="GND21" gate="1" x="33.02" y="208.28" smashed="yes">

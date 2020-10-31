@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -184,11 +184,11 @@
 <text x="31.75" y="17.018" size="1.778" layer="21" font="vector" ratio="12">INPUT POWER</text>
 <text x="76.2" y="19.05" size="1.778" layer="21" font="vector" ratio="12" rot="R90">ON</text>
 <text x="75.946" y="31.75" size="1.778" layer="21" font="vector" ratio="12" rot="R90">OFF</text>
-<text x="30.4546" y="83.3374" size="1.778" layer="21" font="vector" ratio="12">VAR-PBB v01</text>
+<text x="30.4546" y="83.3374" size="1.778" layer="21" font="vector" ratio="12">VAR-PBB v02</text>
 <text x="34.0614" y="50.9778" size="1.27" layer="21" font="vector" ratio="18">J1</text>
 <hole x="51.308" y="38.354" drill="3.2"/>
 <hole x="27.686" y="38.354" drill="3.2"/>
-<text x="39.5478" y="79.5528" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">Engienering^3, 2019
+<text x="39.5478" y="79.5528" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">Engineering^3, 2019
 http://engineering3.org</text>
 <text x="35.2552" y="7.9756" size="1.778" layer="22" rot="MR180">RoSH
 Compliant</text>

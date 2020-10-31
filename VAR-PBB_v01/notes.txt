@@ -1,0 +1,44 @@
+Build of VAR-PBB v01 on 1/11/2020
+
+* Wrong value of LED current limiting resistor on BOM. (Fixed)
+* Wrong quantity of 1uF caps ordered. (Fixed)
+* Can't see output connector labels very well (silk screen) - find a better way to label them
+* Increase size of output traces from DC-DC converters to handle higher currents
+* Increase isolation between traces
+* Increase (add) thermals for GND pins
+
+
+Using USB voltage/current monitor and USB load:
+
+Input voltage Input Current  5V Volts  5V Current
+9.0V          0.04A          4.97V     0.01A
+9.0V          0.33A          4.87V     0.50A
+9.0V          0.64A          4.76V     1.00A
+9.0V          0.95A          4.67V     1.50A
+8.0V          0.04A          4.97V     0.01A
+8.0V          0.37A          4.87V     0.50A
+8.0V          0.71A          4.77V     1.00A
+8.0V          1.07A          4.67V     1.50A
+
+       (Adjustable output set to 12V)
+                             12V Volts 12V Current
+9.0V          0.09A          12.11V    0.03A
+9.0V          0.83A          12.01V    0.50A
+9.0V          1.76A          11.92V    1.00A
+9.0V          2.10A          11.34V    1.15A
+8.0V          0.08A          12.37V    0.02A
+8.0V          0.92A          12.26V    0.50A
+8.0V          2.04A          12.16V    1.00A
+
+       (Adjustable output set to 20V)
+9.0V          0.25A          19.98V    0.08A
+9.0V          1.35A          19.89V    0.50A
+9.0V          2.00A          19.86V    0.72A
+8.0V          0.28A          19.98V    0.08A
+8.0V          1.55A          19.89V    0.50A
+8.0V          2.02A          19.87V    0.63A
+
+5V Regulator cuts out at 7.8V input
+E-fuse cuts out at 7.7V with existing resistor values
+E-fuse cuts out at 2.1A input current @9.0V input, but output voltage (J11) is only 8.4V at that point
+  (E-Fuse gets hot near max current)
